@@ -1,8 +1,7 @@
 # TrustIn — Integrity-Gated Asset Passport (IGAP)
 
 > **Smart India Hackathon 2026 · Problem Statement 26125**  
-> **Problem:** Blockchain-Based Secure Platform for Identity, Access Control & Digital Asset Management  
-> **Team:** Endeavour · **Team ID:** 140304  
+> **Problem:** Blockchain-Based Secure Platform for Identity, Access Control & Digital Asset Management   
 > **Status:** 🚧 **In Development**
 
 TrustIn is a research-backed, open-source-first architecture for connecting **decentralized identity, digital-asset ownership, contextual authorization and asset integrity** into one verifiable trust decision.
@@ -814,8 +813,6 @@ npm run dev
 These commands are a **target development workflow**, not a statement that the complete stack already exists in this repository.
 
 ---
-
-# 23. Judge takeaway
 
 TrustIn is intended to demonstrate one clear idea:
 
