@@ -116,9 +116,8 @@ Identity → Ownership → Context → Integrity → Evidence
 ---
 
 # 5. Identity & Credentials
-
-![Identity & Credentials](<img width="1888" height="888" alt="image" src="https://github.com/user-attachments/assets/bb323c16-c91b-487e-badc-575b27bd32d6" />
-)
+<img width="1888" height="888" alt="image" src="https://github.com/user-attachments/assets/bb323c16-c91b-487e-badc-575b27bd32d6" />
+![Identity & Credentials]()
 
 ### Purpose
 
@@ -149,9 +148,8 @@ Verifier does not need: the holder's complete private attributes
 ---
 
 # 6. Asset Passports
-
-![Asset Passports](<img width="1890" height="901" alt="image" src="https://github.com/user-attachments/assets/e546d612-d4a2-4606-9385-56ab51e2fafa" />
-)
+<img width="1890" height="901" alt="image" src="https://github.com/user-attachments/assets/e546d612-d4a2-4606-9385-56ab51e2fafa" />
+![Asset Passports]()
 
 ### Purpose
 
@@ -190,9 +188,8 @@ UNVERIFIED → ACTIVE → QUARANTINED → REVERIFIED
 ---
 
 # 7. Access Control
-
-![Access Control](<img width="1907" height="892" alt="image" src="https://github.com/user-attachments/assets/a7bd01d4-f415-43d6-b6f1-5f45d6edb034" />
-)
+<img width="1907" height="892" alt="image" src="https://github.com/user-attachments/assets/a7bd01d4-f415-43d6-b6f1-5f45d6edb034" />
+![Access Control]()
 
 ### Purpose
 
@@ -223,9 +220,8 @@ A user can have a valid identity and ownership while still receiving **DENY** wh
 ---
 
 # 8. Integrity Center — core innovation demonstration
-
-![Integrity Center](<img width="1902" height="880" alt="image" src="https://github.com/user-attachments/assets/f30d60c7-d556-4a8d-960f-1ace6095e2b3" />
-)
+<img width="1902" height="880" alt="image" src="https://github.com/user-attachments/assets/f30d60c7-d556-4a8d-960f-1ace6095e2b3" />
+![Integrity Center]()
 
 The Integrity Center makes the critical failure path observable.
 
@@ -274,9 +270,8 @@ Authorization = changed
 ---
 
 # 9. Audit & Authorization Receipts
-
-![Audit & Receipts](<img width="1905" height="890" alt="image" src="https://github.com/user-attachments/assets/5a7748d6-e49a-4d70-8faf-74ebefe383a0" />
-)
+<img width="1905" height="890" alt="image" src="https://github.com/user-attachments/assets/5a7748d6-e49a-4d70-8faf-74ebefe383a0" />
+![Audit & Receipts]()
 
 TrustIn is designed to preserve **decision evidence**, not merely generic event logs.
 
@@ -316,9 +311,8 @@ Large files and private credentials remain off-chain; compact commitments are an
 ---
 
 # 10. Recovery & Governance
-
-![Recovery & Governance](<img width="1897" height="892" alt="image" src="https://github.com/user-attachments/assets/96e3c323-7b40-4d8c-a9da-072567b3ec51" />
-)
+<img width="1897" height="892" alt="image" src="https://github.com/user-attachments/assets/96e3c323-7b40-4d8c-a9da-072567b3ec51" />
+![Recovery & Governance]()
 
 TrustIn treats operational failure as part of the architecture.
 
