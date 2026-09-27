@@ -1,0 +1,33 @@
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+.npm/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python / local tools
+__pycache__/
+.venv/
+*.pyc
+
+# Solidity / Foundry
+cache/
+out/
+broadcast/
+lib/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local data
+data/local/
+storage/local/

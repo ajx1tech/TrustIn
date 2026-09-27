@@ -1,0 +1,1 @@
+# Integrity module\n\n**Status: In Development**\n\nPlanned responsibility: `integrity`.\n

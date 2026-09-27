@@ -1,0 +1,3 @@
+# TrustIn local stack — IN DEVELOPMENT
+# Planned services: API, Postgres, IPFS, OPA, local EVM
+services: {}

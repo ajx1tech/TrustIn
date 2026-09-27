@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TrustIn Asset Passport (Draft)",
+  "type": "object",
+  "required": [
+    "assetId",
+    "ownerDID",
+    "integrityStatus"
+  ],
+  "properties": {
+    "assetId": {
+      "type": "string"
+    },
+    "ownerDID": {
+      "type": "string"
+    },
+    "integrityStatus": {
+      "enum": [
+        "UNVERIFIED",
+        "ACTIVE",
+        "QUARANTINED",
+        "REVERIFIED",
+        "REVOKED",
+        "RETIRED"
+      ]
+    },
+    "policyVersion": {
+      "type": "integer"
+    }
+  }
+}

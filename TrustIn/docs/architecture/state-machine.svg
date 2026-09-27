@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="100%" height="100%" fill="#0a0a0a"/>
+<style>
+.t{font-family:Inter,Arial,sans-serif;fill:#f4f4f1}
+.s{font-family:Inter,Arial,sans-serif;fill:#a6a6a1}
+.b{fill:#111;stroke:#2c2c2c;stroke-width:2}
+.y{fill:#f5c400}
+.l{stroke:#f5c400;stroke-width:2;fill:none;marker-end:url(#a)}
+</style>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f5c400"/></marker></defs>
+<text x="50" y="50" class="t" font-size="27" font-weight="700">TrustIn — Asset Integrity State Machine</text>
+
+<rect x="100" y="150" width="180" height="90" rx="14" class="b"/>
+<text x="118" y="180" class="t" font-size="16" font-weight="700">UNVERIFIED</text>
+<text x="118" y="205" class="s" font-size="12">new / unknown asset</text>
+<rect x="390" y="150" width="180" height="90" rx="14" class="b"/>
+<text x="408" y="180" class="t" font-size="16" font-weight="700">ACTIVE</text>
+<text x="408" y="205" class="s" font-size="12">integrity verified</text>
+<rect x="680" y="150" width="220" height="90" rx="14" class="b"/>
+<text x="698" y="180" class="t" font-size="16" font-weight="700">QUARANTINED</text>
+<text x="698" y="205" class="s" font-size="12">integrity mismatch</text>
+<rect x="390" y="360" width="180" height="90" rx="14" class="b"/>
+<text x="408" y="390" class="t" font-size="16" font-weight="700">REVERIFIED</text>
+<text x="408" y="415" class="s" font-size="12">successful re-check</text>
+<rect x="680" y="360" width="220" height="90" rx="14" class="b"/>
+<text x="698" y="390" class="t" font-size="16" font-weight="700">REVOKED / RETIRED</text>
+<text x="698" y="415" class="s" font-size="12">lifecycle end</text>
+<path d="M280 195 L390 195" class="l"/>
+<path d="M570 195 L680 195" class="l"/>
+<path d="M790 240 L520 360" class="l"/>
+<path d="M480 360 L480 240" class="l"/>
+<path d="M570 405 L680 405" class="l"/>
+</svg>

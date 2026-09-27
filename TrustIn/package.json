@@ -1,0 +1,10 @@
+{
+  "name": "trustin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "TrustIn \u2014 Integrity-Gated Asset Passport for SIH 2026 PS 26125",
+  "scripts": {
+    "demo": "python -m http.server 8080",
+    "lint": "echo 'Repository linting pipeline is In Development'"
+  }
+}

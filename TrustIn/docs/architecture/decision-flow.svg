@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="100%" height="100%" fill="#0a0a0a"/>
+<style>
+.t{font-family:Inter,Arial,sans-serif;fill:#f4f4f1}
+.s{font-family:Inter,Arial,sans-serif;fill:#a6a6a1}
+.b{fill:#111;stroke:#2c2c2c;stroke-width:2}
+.y{fill:#f5c400}
+.l{stroke:#f5c400;stroke-width:2;fill:none;marker-end:url(#a)}
+</style>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f5c400"/></marker></defs>
+<text x="50" y="50" class="t" font-size="27" font-weight="700">TrustIn — Authorization Decision</text>
+
+<rect x="60" y="120" width="190" height="95" rx="14" class="b"/>
+<text x="78" y="150" class="t" font-size="16" font-weight="700">1 · Identity</text>
+<text x="78" y="175" class="s" font-size="12">DID / VC valid</text>
+<text x="78" y="198" class="s" font-size="11">PASS / FAIL</text>
+<rect x="300" y="120" width="190" height="95" rx="14" class="b"/>
+<text x="318" y="150" class="t" font-size="16" font-weight="700">2 · Ownership</text>
+<text x="318" y="175" class="s" font-size="12">owner / delegation</text>
+<text x="318" y="198" class="s" font-size="11">PASS / FAIL</text>
+<rect x="540" y="120" width="190" height="95" rx="14" class="b"/>
+<text x="558" y="150" class="t" font-size="16" font-weight="700">3 · Policy</text>
+<text x="558" y="175" class="s" font-size="12">role + purpose + time</text>
+<text x="558" y="198" class="s" font-size="11">PASS / FAIL</text>
+<rect x="780" y="120" width="190" height="95" rx="14" class="b"/>
+<text x="798" y="150" class="t" font-size="16" font-weight="700">4 · Integrity</text>
+<text x="798" y="175" class="s" font-size="12">registered = current</text>
+<text x="798" y="198" class="s" font-size="11">PASS / FAIL</text>
+<rect x="430" y="320" width="200" height="105" rx="14" class="b"/>
+<text x="448" y="350" class="t" font-size="16" font-weight="700">TRUST DECISION</text>
+<text x="448" y="375" class="s" font-size="12">I ∧ O ∧ P ∧ T ∧ S ∧ C</text>
+<text x="448" y="398" class="s" font-size="11">ALLOW / DENY</text>
+<rect x="760" y="340" width="250" height="90" rx="14" class="b"/>
+<text x="778" y="370" class="t" font-size="16" font-weight="700">Authorization Receipt</text>
+<text x="778" y="395" class="s" font-size="12">hash + decision evidence</text>
+<text x="778" y="418" class="s" font-size="11">audit anchor</text>
+<path d="M250 165 L300 165" class="l"/>
+<path d="M490 165 L540 165" class="l"/>
+<path d="M730 165 L780 165" class="l"/>
+<path d="M875 215 L600 320" class="l"/>
+<path d="M530 425 L760 385" class="l"/>
+</svg>

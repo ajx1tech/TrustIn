@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="100%" height="100%" fill="#0a0a0a"/>
+<style>
+.t{font-family:Inter,Arial,sans-serif;fill:#f4f4f1}
+.s{font-family:Inter,Arial,sans-serif;fill:#a6a6a1}
+.b{fill:#111;stroke:#2c2c2c;stroke-width:2}
+.y{fill:#f5c400}
+.l{stroke:#f5c400;stroke-width:2;fill:none;marker-end:url(#a)}
+</style>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#f5c400"/></marker></defs>
+<text x="50" y="50" class="t" font-size="27" font-weight="700">TrustIn — System Architecture</text>
+
+<rect x="60" y="120" width="190" height="100" rx="14" class="b"/>
+<text x="78" y="150" class="t" font-size="16" font-weight="700">User / Holder</text>
+<text x="78" y="175" class="s" font-size="12">DID + VC proof</text>
+<text x="78" y="198" class="s" font-size="11">identity</text>
+<rect x="310" y="120" width="220" height="100" rx="14" class="b"/>
+<text x="328" y="150" class="t" font-size="16" font-weight="700">Identity Engine</text>
+<text x="328" y="175" class="s" font-size="12">verify credentials</text>
+<text x="328" y="198" class="s" font-size="11">W3C-aligned</text>
+<rect x="590" y="90" width="240" height="100" rx="14" class="b"/>
+<text x="608" y="120" class="t" font-size="16" font-weight="700">Policy Engine</text>
+<text x="608" y="145" class="s" font-size="12">RBAC + context</text>
+<text x="608" y="168" class="s" font-size="11">purpose + time</text>
+<rect x="590" y="220" width="240" height="100" rx="14" class="b"/>
+<text x="608" y="250" class="t" font-size="16" font-weight="700">Asset Passport</text>
+<text x="608" y="275" class="s" font-size="12">NFT + owner DID</text>
+<text x="608" y="298" class="s" font-size="11">policy + state</text>
+<rect x="880" y="155" width="240" height="100" rx="14" class="b"/>
+<text x="898" y="185" class="t" font-size="16" font-weight="700">Integrity Gate</text>
+<text x="898" y="210" class="s" font-size="12">hash / attestation</text>
+<text x="898" y="233" class="s" font-size="11">ACTIVE / QUARANTINED</text>
+<rect x="880" y="310" width="240" height="100" rx="14" class="b"/>
+<text x="898" y="340" class="t" font-size="16" font-weight="700">Decision + Receipt</text>
+<text x="898" y="365" class="s" font-size="12">ALLOW / DENY</text>
+<text x="898" y="388" class="s" font-size="11">audit evidence</text>
+<rect x="590" y="470" width="240" height="100" rx="14" class="b"/>
+<text x="608" y="500" class="t" font-size="16" font-weight="700">Blockchain Anchor</text>
+<text x="608" y="525" class="s" font-size="12">hash / evidence</text>
+<text x="608" y="548" class="s" font-size="11">EVM implementation choice</text>
+<path d="M250 170 L310 170" class="l"/>
+<path d="M530 145 L590 140" class="l"/>
+<path d="M530 195 L590 260" class="l"/>
+<path d="M830 170 L880 205" class="l"/>
+<path d="M710 320 L710 470" class="l"/>
+<path d="M1000 255 L1000 310" class="l"/>
+</svg>
