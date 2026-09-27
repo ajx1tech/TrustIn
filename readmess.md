@@ -1,8 +1,6 @@
 # TrustIn — Dashboard Function Guide
 
 > **TrustIn — Integrity-Gated Asset Passport (IGAP)**  
-> **SIH 2026 · Problem Statement 26125**  
-> **Team Endeavour · Team ID 140304**
 
 This document is a **visual companion to the main `README.md`**. It explains what a judge can see inside the TrustIn dashboard, what each screen demonstrates, and how the screens connect into the overall TrustIn workflow.
 
@@ -95,20 +93,19 @@ Access = Identity Proof
 ---
 
 # 4. Dashboard overview
+<img width="1900" height="913" alt="image" src="https://github.com/user-attachments/assets/342fdbf2-1ab3-413c-b685-cabf8813e6c6" />
+
 
 ![TrustIn Overview](docs/screenshots/dashboard.png)
 
 ### What this screen demonstrates
 
-The **Overview** screen is the judge's starting point. It summarizes identities, credentials, asset passports, active policies, integrity alerts and authorization receipts.
-
+The **Overview** 
 The workflow strip makes the complete trust chain visible:
 
 ```text
 DID / VC proof → Asset ownership → Policy context → Integrity gate → Decision receipt
 ```
-
-### Judge takeaway
 
 TrustIn is not simply `Wallet → NFT → Access`. It is:
 
@@ -120,7 +117,8 @@ Identity → Ownership → Context → Integrity → Evidence
 
 # 5. Identity & Credentials
 
-![Identity & Credentials](docs/screenshots/identity.png)
+![Identity & Credentials](<img width="1888" height="888" alt="image" src="https://github.com/user-attachments/assets/bb323c16-c91b-487e-badc-575b27bd32d6" />
+)
 
 ### Purpose
 
@@ -152,7 +150,8 @@ Verifier does not need: the holder's complete private attributes
 
 # 6. Asset Passports
 
-![Asset Passports](docs/screenshots/assets.png)
+![Asset Passports](<img width="1890" height="901" alt="image" src="https://github.com/user-attachments/assets/e546d612-d4a2-4606-9385-56ab51e2fafa" />
+)
 
 ### Purpose
 
@@ -192,7 +191,8 @@ UNVERIFIED → ACTIVE → QUARANTINED → REVERIFIED
 
 # 7. Access Control
 
-![Access Control](docs/screenshots/access.png)
+![Access Control](<img width="1907" height="892" alt="image" src="https://github.com/user-attachments/assets/a7bd01d4-f415-43d6-b6f1-5f45d6edb034" />
+)
 
 ### Purpose
 
@@ -224,7 +224,8 @@ A user can have a valid identity and ownership while still receiving **DENY** wh
 
 # 8. Integrity Center — core innovation demonstration
 
-![Integrity Center](docs/screenshots/integrity.png)
+![Integrity Center](<img width="1902" height="880" alt="image" src="https://github.com/user-attachments/assets/f30d60c7-d556-4a8d-960f-1ace6095e2b3" />
+)
 
 The Integrity Center makes the critical failure path observable.
 
@@ -274,7 +275,8 @@ Authorization = changed
 
 # 9. Audit & Authorization Receipts
 
-![Audit & Receipts](docs/screenshots/audit.png)
+![Audit & Receipts](<img width="1905" height="890" alt="image" src="https://github.com/user-attachments/assets/5a7748d6-e49a-4d70-8faf-74ebefe383a0" />
+)
 
 TrustIn is designed to preserve **decision evidence**, not merely generic event logs.
 
@@ -315,7 +317,8 @@ Large files and private credentials remain off-chain; compact commitments are an
 
 # 10. Recovery & Governance
 
-![Recovery & Governance](docs/screenshots/recovery.png)
+![Recovery & Governance](<img width="1897" height="892" alt="image" src="https://github.com/user-attachments/assets/96e3c323-7b40-4d8c-a9da-072567b3ec51" />
+)
 
 TrustIn treats operational failure as part of the architecture.
 
@@ -563,5 +566,3 @@ See the main [`README.md`](README.md) for the complete problem-statement mapping
 **Problem Statement:** 26125  
 **Theme:** Blockchain & Cybersecurity  
 **Project:** TrustIn — Integrity-Gated Asset Passport  
-**Team:** Endeavour  
-**Team ID:** 140304
